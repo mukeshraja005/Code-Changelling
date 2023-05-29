@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      function largestintegers(arr) {
+  if (arr.length < 3);
+  
+  // Sort the array in descending order
+  arr.sort((a, b) => b - a); 
+
+  // Return the sum of the three largest integers
+  return arr[0] + arr[1] + arr[2]; 
+}
+
+//usage
+const numbers = [1, 5, 2, 8, 3, 10];
+const largestSum = largestintegers(numbers);
+console.log("Largest sum of three integers:", largestSum);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+.text{
+  font-size: 20px;
+  display: inline;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  position: relative;
+  top:15px;
+ 
+
+ 
+}
+p
+{
+  font-size: 15px;
+  font-style: italic;
+  color: gray;
+
+}
+.price
+{
+  font-size:15px;
+  font-family:sans-serif;
+  font-style: normal;
+  color: orangered;
+  position: relative;
+  bottom:10px;
+  
+
+ 
+}
+ul{
+  list-style-type: none;
+  border: 2px solid black;
+  width: 600px;
+  border-radius:10px ;
+
+}
+li
+{
+  border-bottom: 1px solid black;
+ 
+  width: 500px;
+  position:relative;
+  left: 10px;
+}
+.menuitems
+{
+  padding-left:350px;
+  padding-top:100px;
+}

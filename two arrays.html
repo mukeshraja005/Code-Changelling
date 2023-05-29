@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    function findarray(arr1, arr2) {
+  var Array = [];
+
+  for ( i = 0; i < arr1.length; i++) {
+    if (arr2.includes(arr1[i])) {
+      Array.push(arr1[i]);
+    }
+  }
+
+  return Array;
+}
+
+// usage
+var array1 = [3, 5, 6, 7, 8, 9];
+var array2 = [4, 5, 3, 7];
+var Array = findarray(array1, array2);
+console.log("findarray:", Array);
+
+   </script> 
+</body>
+</html>
